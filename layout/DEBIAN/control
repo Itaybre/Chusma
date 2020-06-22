@@ -1,0 +1,9 @@
+Package: com.itaysoft.chusma
+Name: Chusma
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, ws.hbang.common (>= 1.11)
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Get notifications when someone is tracking you
+Maintainer: Itay <support@itaysoft.com>
+Author: Itay <support@itaysoft.com>
+Section: Tweaks

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Configuration</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.itaysoft.chusma</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.itaysoft.chusma/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Follow the dev</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>Itay</string>
+			<key>user</key>
+			<string>itaybre</string>
+			<key>avatarURL</key>
+			<string>https://www.icaughtuapp.com/twitter.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other Tweaks</string>
+		</dict>
+		<dict>
+    		<key>cellClass</key>
+    		<string>HBPackageTableCell</string>
+    		<key>label</key>
+    		<string>iCaughtU 12+</string>
+    		<key>packageIdentifier</key>
+    		<string>com.itaysoft.icaughtuxii</string>
+    		<key>subtitle</key>
+    		<string>Protect your device against thieves!</string>
+		</dict>
+		<dict>
+    		<key>cellClass</key>
+    		<string>HBPackageTableCell</string>
+    		<key>label</key>
+    		<string>Network Toggle</string>
+    		<key>packageIdentifier</key>
+    		<string>com.itaysoft.ltetoggle</string>
+    		<key>subtitle</key>
+    		<string>Change to LTE/3G/2G from the Control Center</string>
+		</dict>
+		<dict>
+    		<key>cellClass</key>
+    		<string>HBPackageTableCell</string>
+    		<key>label</key>
+    		<string>TypingIndicator</string>
+    		<key>packageIdentifier</key>
+    		<string>com.itaysoft.typingindicator</string>
+    		<key>subtitle</key>
+    		<string>Get notifications when someone is writing you</string>
+		</dict>
+		<dict>
+			<key>alignment</key>
+			<integer>1</integer>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+			<key>footerText</key>
+			<string>Chusma © 2020 Itay</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Chusma</string>
+</dict>
+</plist>

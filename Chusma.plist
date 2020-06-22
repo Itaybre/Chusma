@@ -1,0 +1,6 @@
+{ 
+    Filter = { 
+        Executables = ( "findmydeviced", "fmflocatord" ); 
+        Bundles = ( "com.apple.springboard" );
+    }; 
+}

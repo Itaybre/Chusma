@@ -1,0 +1,6 @@
+#!/bin/bash
+
+launchctl load -w /System/Library/LaunchDaemons/com.apple.icloud.findmydeviced.plist
+launchctl load -w /System/Library/LaunchDaemons/com.apple.icloud.fmflocatord.plist
+
+exit 0
