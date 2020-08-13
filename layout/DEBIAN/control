@@ -7,3 +7,6 @@ Description: Get notifications when someone is tracking you
 Maintainer: Itay <support@itaysoft.com>
 Author: Itay <support@itaysoft.com>
 Section: Tweaks
+Icon: https://www.icaughtuapp.com/repo/icons/com.itaysoft.chusma.png
+Depiction: https://www.icaughtuapp.com/repo/depictions/web/?p=com.itaysoft.chusma
+SileoDepiction: https://www.icaughtuapp.com/repo/depictions/native/com.itaysoft.chusma/depiction.json
